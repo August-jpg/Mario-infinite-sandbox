@@ -11,7 +11,7 @@ Mario.Character = function() {
     this.Lives = 99999999;
     this.LevelString = "none";
     this.GroundInertia = 0.89;
-    this.AirInertia = 5;
+    this.AirInertia = 99999999999;
     
     //non static variables in Notch's code
     this.RunTime = 0;
